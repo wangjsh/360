@@ -1,0 +1,37 @@
+nohup: 忽略输入
+2016-05-05 10:41:13 [scrapy] INFO: Scrapy 1.0.5 started (bot: cntv)
+2016-05-05 10:41:13 [scrapy] INFO: Optional features available: ssl, http11
+2016-05-05 10:41:13 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'cntv.spiders', 'SPIDER_MODULES': ['cntv.spiders'], 'COOKIES_ENABLED': False, 'DOWNLOAD_DELAY': 5, 'BOT_NAME': 'cntv'}
+2016-05-05 10:41:23 [scrapy] INFO: Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+2016-05-05 10:41:23 [scrapy] INFO: Enabled downloader middlewares: RotateUserAgentMiddleware, HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2016-05-05 10:41:23 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2016-05-05 10:41:23 [scrapy] INFO: Enabled item pipelines: CntvPipeline
+2016-05-05 10:41:23 [scrapy] INFO: Spider opened
+2016-05-05 10:41:23 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-05-05 10:41:23 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-05-05 10:41:23 [scrapy] DEBUG: Redirecting (301) to <GET http://dianshiju.cntv.cn/list/nf/2016/> from <GET http://dianshiju.cntv.cn/list/nf/2016>
+2016-05-05 10:41:30 [scrapy] DEBUG: Redirecting (meta refresh) to <GET http://dianshiju.cctv.com/list/nf/2016/index.shtml> from <GET http://dianshiju.cntv.cn/list/nf/2016/>
+2016-05-05 10:41:34 [scrapy] DEBUG: Crawled (200) <GET http://dianshiju.cctv.com/list/nf/2016/index.shtml> (referer: None)
+2016-05-05 10:41:34 [scrapy] INFO: Closing spider (finished)
+2016-05-05 10:41:34 [scrapy] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 890,
+ 'downloader/request_count': 3,
+ 'downloader/request_method_count/GET': 3,
+ 'downloader/response_bytes': 36104,
+ 'downloader/response_count': 3,
+ 'downloader/response_status_count/200': 2,
+ 'downloader/response_status_count/301': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2016, 5, 5, 2, 41, 34, 650750),
+ 'log_count/DEBUG': 4,
+ 'log_count/INFO': 7,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 3,
+ 'scheduler/dequeued/memory': 3,
+ 'scheduler/enqueued': 3,
+ 'scheduler/enqueued/memory': 3,
+ 'start_time': datetime.datetime(2016, 5, 5, 2, 41, 23, 252479)}
+2016-05-05 10:41:34 [scrapy] INFO: Spider closed (finished)
+the new added program numbers is:  0
+the number of programs extracted in this page is:  88
+scrapy completed crawling, closed. Notify java process to create index_file.

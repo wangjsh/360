@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+'''
+from pipelines import CntvPipeline
+
+pipe = DoubanmoivePipeline()#负责操作数据库的一个对象
+str = '     五鼠闹东京     '
+value = pipe.search(str.strip())
+print value
+'''
+s = 'abcd'
+print isinstance(s, unicode)

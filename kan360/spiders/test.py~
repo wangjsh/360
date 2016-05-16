@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+from doubanmoive.pipelines import DoubanmoivePipeline
+
+pipe = DoubanmoivePipeline()#负责操作数据库的一个对象
+pipe.search('五鼠闹东京')
